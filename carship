@@ -92,6 +92,15 @@
         .contact button:hover {
             background-color: #005a9e;
         }
+        .email-contact {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .availability {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
         footer {
             background-color: #333;
             color: white;
@@ -136,6 +145,12 @@
             <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
             <button type="submit">Absenden</button>
         </form>
+        <div class="email-contact">
+            <p>Oder schreiben Sie uns direkt eine E-Mail: <a href="mailto:carship@icloud.com">carship@icloud.com</a></p>
+        </div>
+        <div class="availability">
+            <p>Wir sind rund um die Uhr für Sie erreichbar, um Ihnen dabei zu helfen, Ihr Fahrzeug zu verkaufen oder das perfekte Fahrzeug zu finden.</p>
+        </div>
     </section>
     <footer>
         <p>&copy; 2024 Carship. Alle Rechte vorbehalten.</p>
