@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carship - Ihr Partner für die Vermittlung und den Kauf von Fahrzeugen. Wir erleichtern den Verkauf und Kauf von Kfz mit transparenten Prozessen.">
+    <title>Carship - Fahrzeugvermittlung leicht gemacht</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005a9e;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #eaf4ff;
+        }
+        .hero h2 {
+            margin: 0 0 20px;
+        }
+        .hero p {
+            font-size: 18px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+        }
+        .service {
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 300px;
+            text-align: center;
+        }
+        .service h3 {
+            color: #0078d7;
+        }
+        .contact {
+            background-color: #f1f1f1;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .contact form {
+            max-width: 500px;
+            margin: auto;
+        }
+        .contact input, .contact textarea, .contact button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact button {
+            background-color: #0078d7;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #005a9e;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carship</h1>
+        <p>Fahrzeugvermittlung leicht gemacht</p>
+    </header>
+    <nav>
+        <a href="#services">Unsere Leistungen</a>
+        <a href="#contact">Kontakt</a>
+        <a href="#about">Über uns</a>
+    </nav>
+    <section class="hero">
+        <h2>Willkommen bei Carship</h2>
+        <p>Wir machen den Verkauf oder Kauf Ihres Fahrzeugs so einfach wie möglich. Vertrauen Sie auf unsere Expertise und unseren Service.</p>
+    </section>
+    <section id="services" class="services">
+        <div class="service">
+            <h3>Fahrzeug verkaufen</h3>
+            <p>Wir übernehmen die komplette Abwicklung, von der Bewertung bis zum Verkauf.</p>
+        </div>
+        <div class="service">
+            <h3>Fahrzeug kaufen</h3>
+            <p>Sie suchen ein Fahrzeug? Wir finden das perfekte Angebot für Sie.</p>
+        </div>
+        <div class="service">
+            <h3>Beratung</h3>
+            <p>Unsere Experten stehen Ihnen mit Rat und Tat zur Seite, um die beste Entscheidung zu treffen.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Kontaktieren Sie uns</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Ihr Name" required>
+            <input type="email" name="email" placeholder="Ihre E-Mail" required>
+            <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Carship. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
